@@ -7,4 +7,11 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
+  resolve: {
+    alias: {
+      '@': '/src',
+      '@components': '/src/components',
+      '@redux': '/src/redux',
+    },
+  },
 });
